@@ -133,7 +133,7 @@ export const WNATIVE: TokenMap = {
   ),
   [ChainId.FUSE]: new Token(ChainId.FUSE, WNATIVE_ADDRESS[ChainId.FUSE], 18, 'WFUSE', 'Wrapped Fuse'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, WNATIVE_ADDRESS[ChainId.TELOS], 18, 'WTLOS', 'Wrapped Telos'),
-  [ChainId.SGB]: new Token(ChainId.SGB, WNATIVE_ADDRESS[ChainId.SGB], 18, 'WSGB', 'Wrapped Songbird'),
+  [ChainId.XRPL]: new Token(ChainId.XRPL, WNATIVE_ADDRESS[ChainId.XRPL], 18, 'WSGB', 'Wrapped Songbird'),
 
 }
 
@@ -154,6 +154,6 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.HECO]: new Token(ChainId.HECO, SUSHI_ADDRESS[ChainId.HECO], 18, 'SUSHI', 'SushiToken'),
   [ChainId.CELO]: new Token(ChainId.CELO, SUSHI_ADDRESS[ChainId.CELO], 18, 'SUSHI', 'SushiToken'),
   [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, SUSHI_ADDRESS[ChainId.MOONRIVER], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.SGB]: new Token(ChainId.SGB, SUSHI_ADDRESS[ChainId.SGB], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.XRPL]: new Token(ChainId.XRPL, SUSHI_ADDRESS[ChainId.XRPL], 18, 'SUSHI', 'SushiToken'),
 
 }

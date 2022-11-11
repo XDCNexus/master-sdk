@@ -3169,7 +3169,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sushiswap/tines@1.0.0-canary.13, @sushiswap/tines@workspace:packages/tines":
+"@sushiswap/tines@npm:1.0.0-canary.13":
+  version: 1.0.0-canary.13
+  resolution: "@sushiswap/tines@npm:1.0.0-canary.13"
+  dependencies:
+    "@ethersproject/bignumber": ^5.4.0
+    "@sushiswap/core-sdk": 1.0.0-canary.31
+  checksum: 04f95ea27f2b18d7cee747df75445de6bdc5add35ddeb8915e06643e1e07c7c9b93907007b947f438901d499a84631cc1420c3ee593a53008fac21f81d54695e
+  languageName: node
+  linkType: hard
+
+"@sushiswap/tines@workspace:packages/tines":
   version: 0.0.0-use.local
   resolution: "@sushiswap/tines@workspace:packages/tines"
   dependencies:

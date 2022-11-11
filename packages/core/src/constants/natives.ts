@@ -44,7 +44,7 @@ export const NATIVE = {
   [ChainId.PALM]: Palm.onChain(ChainId.PALM),
   [ChainId.MOONRIVER]: Movr.onChain(ChainId.MOONRIVER),
   [ChainId.FUSE]: Fuse.onChain(ChainId.FUSE),
-  [ChainId.SGB]: Songbird.onChain(ChainId.SGB),
+  [ChainId.XRPL]: Songbird.onChain(ChainId.XRPL),
 
   
 }
