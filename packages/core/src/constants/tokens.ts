@@ -133,7 +133,7 @@ export const WNATIVE: TokenMap = {
   ),
   [ChainId.FUSE]: new Token(ChainId.FUSE, WNATIVE_ADDRESS[ChainId.FUSE], 18, 'WFUSE', 'Wrapped Fuse'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, WNATIVE_ADDRESS[ChainId.TELOS], 18, 'WTLOS', 'Wrapped Telos'),
-  [ChainId.XRPL]: new Token(ChainId.XRPL, WNATIVE_ADDRESS[ChainId.XRPL], 18, 'WSGB', 'Wrapped Songbird'),
+  [ChainId.XRPL]: new Token(ChainId.XRPL, WNATIVE_ADDRESS[ChainId.XRPL], 18, 'WXRP', 'Wrapped Ripple'),
 
 }
 

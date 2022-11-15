@@ -4,7 +4,7 @@ import { Token } from '../Token'
 import { WNATIVE } from '../../constants/tokens'
 import invariant from 'tiny-invariant'
 
-export class Songbird extends NativeCurrency {
+export class EXRP extends NativeCurrency {
   protected constructor(chainId: number) {
     super(chainId, 18, 'XRP', 'XRP')
   }
@@ -15,10 +15,10 @@ export class Songbird extends NativeCurrency {
     return wnative
   }
 
-  private static _cache: { [chainId: number]: Songbird } = {}
+  private static _cache: { [chainId: number]: EXRP } = {}
 
-  public static onChain(chainId: number): Songbird {
-    return this._cache[chainId] ?? (this._cache[chainId] = new Songbird(chainId))
+  public static onChain(chainId: number): EXRP {
+    return this._cache[chainId] ?? (this._cache[chainId] = new EXRP(chainId))
   }
 
   public equals(other: Currency): boolean {

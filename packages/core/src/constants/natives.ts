@@ -12,7 +12,7 @@ import {
   Okex,
   Palm,
   xDai,
-  Songbird
+  EXRP
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -44,7 +44,5 @@ export const NATIVE = {
   [ChainId.PALM]: Palm.onChain(ChainId.PALM),
   [ChainId.MOONRIVER]: Movr.onChain(ChainId.MOONRIVER),
   [ChainId.FUSE]: Fuse.onChain(ChainId.FUSE),
-  [ChainId.XRPL]: Songbird.onChain(ChainId.XRPL),
-
-  
+  [ChainId.XRPL]: EXRP.onChain(ChainId.XRPL),
 }
